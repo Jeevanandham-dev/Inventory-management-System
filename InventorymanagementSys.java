@@ -97,17 +97,10 @@ public class InventoryManagementSystem {
         nextProductId = 1001; // Starting product ID
 
         
-        initializeSampleData();
     }
 
    
-    private void initializeSampleData() {
-        addProduct(new Product(nextProductId++, "Laptop", "Electronics", 999.99, 15, "TechSupplier"));
-        addProduct(new Product(nextProductId++, "Mouse", "Electronics", 25.50, 50, "TechSupplier"));
-        addProduct(new Product(nextProductId++, "Desk Chair", "Furniture", 150.00, 8, "FurnitureCorp"));
-        addProduct(new Product(nextProductId++, "Notebook", "Stationery", 3.99, 100, "OfficeSupply"));
-        addProduct(new Product(nextProductId++, "Coffee Mug", "Kitchen", 12.99, 25, "KitchenWare"));
-    }
+    
 
     
     public void addProduct(Product product) {
